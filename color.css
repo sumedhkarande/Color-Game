@@ -1,0 +1,84 @@
+body{
+	background-color: black;
+	margin: 0;
+	font-family: Comic Sans MS;
+}
+
+.square{
+
+	background-color: blue;
+	width: 30%;
+	margin: 1.6%;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 10%;
+	transition: background 0.4s;
+}
+
+.container{
+
+	margin: 20px auto;
+	max-width: 600px;
+
+}
+#guesscolor{
+
+	font-size:150%;
+}
+
+.new{
+	padding-bottom: 0%;
+	margin-top: 0%;
+	text-align: center;
+}
+
+h1 
+{
+	padding: 20px 0;
+	line-height: 1.1;
+	text-transform: uppercase;
+	margin:0;
+	text-align: center;
+	color: white;
+	background :teal; 
+}
+p{
+	font-size: 30px;
+	color: white;
+}
+
+#stripe{
+	color: black;
+	background-color: white;
+	text-align: center;
+	height: 30px;
+}
+
+.selected{
+	color: white;
+	background: teal;
+}
+
+#message{
+
+	display: inline-block;
+	width: 20%;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color:teal;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.4s;
+	outline: none;
+}
+
+button:hover{
+	color:white;
+	background: teal;
+}
